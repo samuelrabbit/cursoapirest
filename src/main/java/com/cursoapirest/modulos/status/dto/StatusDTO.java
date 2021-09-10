@@ -1,4 +1,4 @@
-package com.cursoapirestrest.modulos.status.dto;
+package com.cursoapirest.modulos.status.dto;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -21,7 +21,7 @@ public class StatusDTO implements Serializable {
   }
 
   public String getVersao() {
-    return this.versao;
+    return versao;
   }
 
   public void setVersao(String versao) {
@@ -29,7 +29,7 @@ public class StatusDTO implements Serializable {
   }
 
   public String getMenssagem() {
-    return this.menssagem;
+    return menssagem;
   }
 
   public void setMenssagem(String menssagem) {
@@ -37,7 +37,7 @@ public class StatusDTO implements Serializable {
   }
 
   public Date getData() {
-    return this.data;
+    return data;
   }
 
   public void setData(Date data) {

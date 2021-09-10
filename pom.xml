@@ -12,7 +12,7 @@
 	<artifactId>cursoapirest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cursoapirest</name>
-	<description>Curso de como desenvolver uma API REST</description>
+	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -38,15 +38,15 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
       <groupId>io.swagger</groupId>
       <artifactId>swagger-core</artifactId>
       <scope>compile</scope>
       <version>1.6.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 

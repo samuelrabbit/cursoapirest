@@ -1,4 +1,4 @@
-package com.cursoapirestrest;
+package com.cursoapirest.cursoapirest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
