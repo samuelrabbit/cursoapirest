@@ -6,4 +6,6 @@ import org.springframework.http.ResponseEntity;
 
 public interface PessoaApi {
   ResponseEntity<List<Pessoa>> ListarPessoas();
+  ResponseEntity<Pessoa> BuscarPorId(Long id);
+  ResponseEntity<Pessoa> Adcionar(Pessoa pessoa);
 }

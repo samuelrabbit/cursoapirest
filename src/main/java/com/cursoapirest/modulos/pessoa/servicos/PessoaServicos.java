@@ -4,5 +4,7 @@ import com.cursoapirest.modulos.pessoa.model.Pessoa;
 import java.util.List;
 
 public interface PessoaServicos {
-  public List<Pessoa> findAll();
+   List<Pessoa> findAll();
+   Pessoa buscarPorId(Long id);
+   Pessoa inserir(Pessoa pessoa);
 }
